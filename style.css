@@ -1,0 +1,129 @@
+header {
+  background-color:black;
+}
+
+}
+header:after, 
+nav:after {
+  content: " ";
+  display: table;
+  clear: both;
+} 
+
+footer {
+  background-color:black;
+  margin: 0px 0px;
+  text-align:left;
+  padding: 10px;
+}
+
+}
+body {
+	background-image:url(background/black-background.jpg);
+}
+
+section {
+	padding: 1px 25%;
+  margin: 0 auto;
+  background-image:url(background/black-background.jpg);
+  background: black;
+
+}
+main {
+    background-image:url(background/black-background.jpg);
+  
+}
+
+h1 {
+  color: white;
+  padding: 20px 0 10px 10px;
+  margin: 1px;
+  text-align:center; //applied to text "Angelo Thinks" after feedback  
+ 
+}
+
+h2 {
+  color: white;
+  text-align:center;
+  margin:1px;
+  font-size: 30px;
+}
+
+h3 {
+  color:white;
+  text-align: left;
+  margin:1px;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* formatting for paragraphs */
+p {
+  color:white;
+  margin:10px;
+  font-size: 20px;
+}
+
+p.footer {
+  text-align:center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:10px;
+  color: white;
+
+}
+
+div {
+  text-align: center;
+  font-size: 10px;
+}
+
+nav {
+
+  float: center;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Elements */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+ul {
+  color:white;
+  font-size:20px;
+}
+
+ol {
+  color:white;
+  font-size:20px;
+}
+/* nested class */
+a {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+a:link    { color:  red; }
+a:visited { color: red;   }
+a:hover   { color: greenyellow; }
+a:active  { color: rgb(0, 25, 252);  }
+
+
+/* Class elements */
+
+.logo {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 60px;
+}
+
+hr {
+  width: 200%;
+  margin-left: -50%;
+}​
+
