@@ -22,8 +22,8 @@ body {
 	background-image:url(background/black-background.jpg);
 }
 
-section {
-	padding: 1px 25%;
+article {
+	padding: 1px 1%;
   margin: 0 auto;
   background-image:url(background/black-background.jpg);
   background: black;
@@ -37,8 +37,9 @@ main {
 h1 {
   color: white;
   padding: 20px 0 10px 10px;
-  margin: 1px;
-  text-align:center; //applied to text "Angelo Thinks" after feedback  
+  margin: 0 1px;
+  text-align:center; //applied to text "Angelo Thinks" after feedback
+  font-size: 22px;  
  
 }
 
@@ -46,7 +47,7 @@ h2 {
   color: white;
   text-align:center;
   margin:1px;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 h3 {
@@ -54,14 +55,15 @@ h3 {
   text-align: left;
   margin:1px;
   text-align: center;
-  font-size: 30px;
+  font-size: 18px;
 }
 
 /* formatting for paragraphs */
 p {
   color:white;
-  margin:10px;
-  font-size: 20px;
+  margin-top: 0;
+  font-size: 15px;
+  text-align: left;
 }
 
 p.footer {
@@ -87,21 +89,24 @@ nav {
 
 /* Elements */
 
-.center {
+/* .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-}
+  omitting for the time being-not in use. 
+} */ 
 
 ul {
   color:white;
-  font-size:20px;
+  font-size:18px;
+  text-align: left;
 }
 
 ol {
   color:white;
-  font-size:20px;
+  font-size:18px;
+  text-align: left;
 }
 /* nested class */
 a {
@@ -127,3 +132,26 @@ hr {
   margin-left: -50%;
 }​
 
+.class {
+  display: flex;
+  flex-direction: column;
+  margin: 0 40px 100px 40px;
+  
+}
+
+.item {
+  flex: 1;
+  padding: 20px;
+
+}
+
+img {
+  width= 100%
+  }
+
+
+  @media all and (min-width: 800px) {
+    .class {
+      flex-direction: row;
+    }
+  }
